@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Vineeth Yadav | Data Engineer & AI Architect",
+  title: "Vineeth Yadav | Analytics & AI",
   description: "Portfolio of Vineeth Yadav, specializing in data engineering, AI pipelines, and enterprise analytics.",
 };
 
