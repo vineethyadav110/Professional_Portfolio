@@ -1,23 +1,27 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "Vineeth Yadav | Data Engineer & AI Architect",
+  description: "Portfolio of Vineeth Yadav, specializing in data engineering, AI pipelines, and enterprise analytics.",
 };
 
 import PageIllustration from "@/components/page-illustration";
 import Hero from "@/components/hero-home";
-import Workflows from "@/components/workflows";
-import Features from "@/components/features";
-import Testimonials from "@/components/testimonials";
-import Cta from "@/components/cta";
+import About from "@/components/about"; 
+import Skills from "@/components/skills"; 
+import Experience from "@/components/experience"; 
+import Features from "@/components/features"; 
+import Cta from "@/components/cta"; 
+import ChatBot from "@/components/Chatbot"; // <-- 1. Import it here
 
 export default function Home() {
   return (
     <>
       <PageIllustration />
       <Hero />
-      <Workflows />
+      <About />
+      <Skills /> 
+      <Experience /> 
       <Features />
-      <Testimonials />
+      <ChatBot /> {/* <-- 2. Add it right here! */}
       <Cta />
     </>
   );
